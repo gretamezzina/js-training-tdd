@@ -8,6 +8,17 @@
 
 // Your code:
 
+const total = arr => {
+    let tot=0
+    for (let i=0; i<arr.length; i++){
+    tot=tot + arr[i]
+    }
+    return tot
+}
+
+
+
+
 //* Begin of tests
 const assert = require('assert');
 
