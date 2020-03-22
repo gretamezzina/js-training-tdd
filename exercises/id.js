@@ -1,12 +1,15 @@
 'use strict';
 
 /*
- * Create an `id` function that takes one argument and return it
+ * Create an `id` function that takes one argument and returns it
  *
  * @notions Functions
  */
 
 // Your code:
+
+const id = par => par
+
 
 //* Begin of tests
 const assert = require('assert');
